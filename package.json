@@ -7,12 +7,14 @@
     "license": "MIT",
     "scripts": {
         "eslint:fix": "eslint --fix",
-        "test": "jest"
+        "test": "jest",
+        "dev": "tsnd ./index.ts"
     },
     "dependencies": {
         "eslint": "^8.0.1",
         "jest": "^29.3.1",
         "koa": "^2.13.4",
+        "ts-node-dev": "^2.0.0",
         "uuid": "^9.0.0"
     },
     "devDependencies": {

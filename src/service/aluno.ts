@@ -6,7 +6,7 @@ export class AlunoService {
     repository!: IDatabase;
     uuid!: IUuid;
 
-    public Aluno(repository: IDatabase, uuid: IUuid) {
+    constructor(repository: IDatabase, uuid: IUuid) {
         this.repository = repository;
         this.uuid = uuid;
     }
