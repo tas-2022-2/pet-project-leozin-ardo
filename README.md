@@ -1,5 +1,5 @@
 
-# Programa de aluno
+# Programa de alunos
 
 Este projeto permite você acessar um sistema para gerenciar alunos...
 
